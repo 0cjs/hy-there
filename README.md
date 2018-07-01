@@ -1,5 +1,5 @@
-Hy There: Experimentation with Hy Lanugage
-==========================================
+Hy There: Working  with Hy Lanugage
+===================================
 
 [Hy] is a Clojure-like Lisp variant embedded in Python.
 See [sedoc] for a summary.
