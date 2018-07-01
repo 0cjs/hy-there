@@ -1,0 +1,14 @@
+#!/usr/bin/env hy
+
+; Adapted from Hy Documentation: Tutorial
+; http://docs.hylang.org/en/stable/tutorial.html
+
+(defn simple-conversation []
+    (print "Hello! I'd like to get to know you. Tell me about yourself.")
+    (setv name (input "What is your name? "))
+    (setv age  (input "How old are you? "))
+    (print (+ "Hello " name "! "
+              "I see you are " age " years old"))
+    )
+
+(simple-conversation)
