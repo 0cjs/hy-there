@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+
+basedir=$(cd "$(dirname "$0")/.." && pwd -P)
+. "$basedir"/activate
+exec hy --repl-output-fn=hy.contrib.hy-repr.hy-repr
